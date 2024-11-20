@@ -1,0 +1,75 @@
+#projects {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0;
+  gap: 15px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--colorText2);
+  border-radius: 15px;
+  padding: 8px;
+  gap: 10px;
+}
+.project-list {
+  display: flex;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  gap: 20px;
+}
+.projects-card img {
+  width: 300px;
+  padding: 10px;
+  object-fit: cover;
+}
+.button-card {
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: var(--background);
+  color: var(--colorText3);
+  cursor: pointer;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  #projects {
+    align-items: center;
+  }
+
+  .projects-card img {
+    width: 100%;
+  }
+
+  .card {
+    width: 90%;
+    padding: 10px;
+    gap: 15px;
+  }
+  .button-card {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .project-list {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  .menu {
+    cursor: pointer;
+  }
+  .anchor {
+    flex-direction: column;
+  }
+  .anchor.hidden {
+    display: none;
+  }
+}

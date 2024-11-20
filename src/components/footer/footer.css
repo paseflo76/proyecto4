@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  background-color: var(--heading);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: var(--body);
+  padding: 10px;
+  gap: 10px;
+}
+.icons-footer {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    text-align: center;
+    padding: 10px 0;
+  }
+  .icons-footer {
+    display: flex;
+    gap: 10px;
+  }
+}
