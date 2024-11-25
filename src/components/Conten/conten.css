@@ -1,0 +1,21 @@
+main {
+  overflow-y: auto;
+}
+
+#change {
+  color: var(--heading);
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 100px;
+}
+
+.change-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  background-color: var(--heading);
+}

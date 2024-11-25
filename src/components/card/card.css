@@ -1,0 +1,49 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--colorText2);
+  border-radius: 15px;
+  padding: 8px;
+  gap: 10px;
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.card-content h3 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  font-size: 10px;
+  color: var(--colorText);
+  margin-bottom: 15px;
+}
+
+.card-link {
+  background-color: var(--background);
+  text-decoration: none;
+  color: var(--colorText3);
+  font-weight: bold;
+  transition: color 0.3s;
+  padding: 0 45px;
+  border-radius: 10px;
+}
+
+.card-link:hover {
+  color: #0056b3;
+}

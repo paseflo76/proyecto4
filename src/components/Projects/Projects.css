@@ -1,0 +1,62 @@
+#projects {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0;
+  gap: 15px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.project-list {
+  display: flex;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  gap: 20px;
+}
+
+.projects-container {
+  display: flex;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  #projects {
+    align-items: center;
+  }
+  .projects-container {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projects-card img {
+    width: 100%;
+  }
+
+  .card {
+    width: 90%;
+    padding: 10px;
+    gap: 15px;
+  }
+  .button-card {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .project-list {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  .menu {
+    cursor: pointer;
+  }
+  .anchor {
+    flex-direction: column;
+  }
+  .anchor.hidden {
+    display: none;
+  }
+}

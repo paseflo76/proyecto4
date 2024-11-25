@@ -1,0 +1,142 @@
+.hero {
+  display: flex;
+  background-color: var(--heading);
+  color: var(--colorText2);
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px;
+}
+.aboutme {
+  background-color: var(--body);
+  display: flex;
+  flex-direction: column;
+  padding: 120px;
+  gap: 90px;
+  color: var(--heading);
+}
+.aboutt {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 550px;
+}
+.aboutt h2 {
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.aboutt p {
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.avatar {
+  width: 30%;
+  height: 30%;
+  border-radius: 100%;
+}
+.avatar img {
+  width: 100%;
+  border-radius: 100%;
+}
+.informacion {
+  display: flex;
+  flex-direction: column;
+}
+.informacion p {
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  color: var(--colorText3);
+}
+.informacion h2 {
+  font-size: 100px;
+  font-family: 'Courier New', Courier, monospace;
+  color: var(--colorText2);
+}
+.skills {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.skill-icon {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.ski {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 50px;
+  }
+}
+.informacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  padding-top: 50px;
+}
+
+.aboutt {
+  gap: 20px;
+  width: 100%;
+}
+.aboutt h2 {
+  font-size: 28px;
+  font-family: sans-serif;
+}
+
+.aboutt p {
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.avatar {
+  width: 250px;
+  height: 250px;
+}
+
+.informacion p {
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+  color: var(--colorText3);
+}
+.informacion h2 {
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  color: var(--colorText2);
+}
+.skills {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.skill-icon {
+  width: 60px;
+}
+
+.ski {
+  display: flex;
+  width: 100%;
+}
+
+.ski h3 {
+  font-size: 28px;
+}
